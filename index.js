@@ -24,8 +24,8 @@ const server = http.createServer((req, res) => {
 
   // Construct GitHub URLs
   const githubFileURL =
-    "https://github.com/username/repo/blob/main/file_name.ext";
-  const githubRepoURL = "https://github.com/username/repo";
+    "https://github.com/oluwasemilorebadejo/hng-stage-one/blob/main/index.js";
+  const githubRepoURL = "https://github.com/oluwasemilorebadejo/hng-stage-one";
 
   // Create the JSON response
   const response = {
